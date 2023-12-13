@@ -1,8 +1,10 @@
 
 type Props = {
+  // some description
   variant?: 'green' | 'yellow' | 'red'
 }
 
+// some explanations on how the light component operate
 const Light = ({variant='green'}:Props) => {
   return (
     <div style={{display:'flex',alignItems:'center',justifyContent:'space-evenly'}} >
