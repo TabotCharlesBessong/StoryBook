@@ -3,7 +3,13 @@ import { Light } from "./components";
 
 const meta: Meta<typeof Light> = {
   component: Light,
-  title: 'Light'
+  title: 'Light',
+  argTypes:{
+    variant:{
+      control:{type:'select'},
+      options:['green','yellow','red']
+    }
+  }
 }
 
 export default meta
