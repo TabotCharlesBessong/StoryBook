@@ -13,9 +13,6 @@ const Light = ({variant='green'}:Props) => {
         width: 30,
         height: 30
       }} />
-      <Light variant="red" />
-      <Light variant="yellow" />
-      <Light variant="green" />
     </div>
   )
 }
